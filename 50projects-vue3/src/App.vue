@@ -3,7 +3,8 @@
   <!-- <ProgressSteps> </ProgressSteps> -->
   <!-- <RotatingNavigation></RotatingNavigation>s -->
   <!-- <HidenSearch></HidenSearch> -->
-  <BlurryLoading></BlurryLoading>
+  <!-- <BlurryLoading></BlurryLoading> -->
+  <ScrollAnimation></ScrollAnimation>
 </template>
 
 <script setup lang="ts">
@@ -12,6 +13,7 @@ import ProgressSteps from "./components/ProgressSteps.vue";
 import RotatingNavigation from "./components/RotatingNavigation.vue";
 import HidenSearch from "./components/HidenSearch.vue";
 import BlurryLoading from "./components/BlurryLoading.vue";
+import ScrollAnimation from "./components/ScrollAnimation.vue";
 </script>
 
 <style scoped></style>
