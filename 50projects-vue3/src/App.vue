@@ -4,7 +4,8 @@
   <!-- <RotatingNavigation></RotatingNavigation>s -->
   <!-- <HidenSearch></HidenSearch> -->
   <!-- <BlurryLoading></BlurryLoading> -->
-  <ScrollAnimation></ScrollAnimation>
+  <!-- <ScrollAnimation></ScrollAnimation> -->
+  <SplitLandingPage></SplitLandingPage>
 </template>
 
 <script setup lang="ts">
@@ -14,6 +15,7 @@ import RotatingNavigation from "./components/RotatingNavigation.vue";
 import HidenSearch from "./components/HidenSearch.vue";
 import BlurryLoading from "./components/BlurryLoading.vue";
 import ScrollAnimation from "./components/ScrollAnimation.vue";
+import SplitLandingPage from "./components/SplitLandingPage.vue";
 </script>
 
 <style scoped></style>
