@@ -62,9 +62,12 @@ const handleCardClick = (index: number) => {
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
-* {
-  box-sizing: border-box;
+
+:global(body) {
+  margin: 0;
+  overflow: hidden;
 }
+
 .cardsBody {
   font-family: "Muli", sans-serif;
   display: flex;

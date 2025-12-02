@@ -1,11 +1,12 @@
 <template>
   <!-- <ExpandingCards> </ExpandingCards> -->
   <!-- <ProgressSteps> </ProgressSteps> -->
-  <!-- <RotatingNavigation></RotatingNavigation>s -->
+  <!-- <RotatingNavigation></RotatingNavigation> -->
   <!-- <HidenSearch></HidenSearch> -->
   <!-- <BlurryLoading></BlurryLoading> -->
   <!-- <ScrollAnimation></ScrollAnimation> -->
-  <SplitLandingPage></SplitLandingPage>
+  <!-- <SplitLandingPage></SplitLandingPage> -->
+  <LoginWavePage></LoginWavePage>
 </template>
 
 <script setup lang="ts">
@@ -16,6 +17,7 @@ import HidenSearch from "./components/HidenSearch.vue";
 import BlurryLoading from "./components/BlurryLoading.vue";
 import ScrollAnimation from "./components/ScrollAnimation.vue";
 import SplitLandingPage from "./components/SplitLandingPage.vue";
+import LoginWavePage from "./components/LoginWavePage.vue";
 </script>
 
 <style scoped></style>

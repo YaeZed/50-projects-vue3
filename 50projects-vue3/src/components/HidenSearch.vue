@@ -48,15 +48,14 @@ const handleEnter = () => {
 };
 </script>
 
-<style>
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
-* {
-  box-sizing: border-box;
-}
-</style>
-
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+:global(body) {
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
 
 .search-body {
   font-family: "Lato", sans-serif;

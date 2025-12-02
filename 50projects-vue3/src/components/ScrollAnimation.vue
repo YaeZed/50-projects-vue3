@@ -65,14 +65,9 @@ onUnmounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu");
 
-* {
-  box-sizing: border-box;
-}
-</style>
-<style scoped>
 .scroll-animation-body {
   font-family: "Ubuntu", sans-serif;
   background-color: #efedd6;
@@ -81,8 +76,6 @@ onUnmounted(() => {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  margin: 0px;
-  min-height: 100vh; /* 建议加上，防止内容太少时背景断层 */
 }
 
 .box {

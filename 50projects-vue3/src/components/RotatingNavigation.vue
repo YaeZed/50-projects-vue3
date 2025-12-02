@@ -70,15 +70,10 @@ const lis = reactive<NavItem[]>([
 const showNav = ref(false);
 </script>
 
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-* {
-  box-sizing: border-box;
-}
-</style>
-
 <style scoped>
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 .rotatingNavigation-body {
   font-family: "Lato", sans-serif;
   background-color: #333;

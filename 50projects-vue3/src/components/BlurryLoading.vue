@@ -53,16 +53,9 @@ onUnmounted(() => {
 });
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu");
 
-* {
-  box-sizing: border-box;
-  overflow: hidden;
-}
-</style>
-
-<style scoped>
 .loading-body {
   font-family: "Ubuntu", sans-serif;
   display: flex;
