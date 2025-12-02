@@ -61,12 +61,14 @@ const updateStep = (direction: "next" | "prev") => {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 
+:global(body) {
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
 :root {
   --line-empty: #e0e0e0;
   --line-full: #3498db;
-}
-* {
-  box-sizing: border-box;
 }
 </style>
 

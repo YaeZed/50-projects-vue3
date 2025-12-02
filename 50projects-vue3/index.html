@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>50projects-vue3</title>
   </head>
+  <style>
+    /* 1. 解决盒模型不继承的问题：直接用通配符 */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    /* 2. 确保根节点撑满屏幕 */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%; /* 这里 html 和 body 都要设 */
+      /* 可选：平滑滚动 */
+      scroll-behavior: smooth;
+      /* overflow: hidden; */
+    }
+
+    /* 3. 关键：确保 Vue 的挂载点也能撑开 */
+    #app {
+      width: 100%;
+      /* 如果是 长滚动页面，用 min-height */
+      min-height: 100%;
+
+      /* 如果是类似后台管理系统(禁止页面滚动)，用 height: 100% */
+      /* height: 100%; */
+
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
