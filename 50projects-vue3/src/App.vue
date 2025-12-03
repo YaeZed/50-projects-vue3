@@ -6,7 +6,8 @@
   <!-- <BlurryLoading></BlurryLoading> -->
   <!-- <ScrollAnimation></ScrollAnimation> -->
   <!-- <SplitLandingPage></SplitLandingPage> -->
-  <LoginWavePage></LoginWavePage>
+  <!-- <LoginWavePage></LoginWavePage> -->
+  <SoundPlayer></SoundPlayer>
 </template>
 
 <script setup lang="ts">
@@ -18,6 +19,7 @@ import BlurryLoading from "./components/BlurryLoading.vue";
 import ScrollAnimation from "./components/ScrollAnimation.vue";
 import SplitLandingPage from "./components/SplitLandingPage.vue";
 import LoginWavePage from "./components/LoginWavePage.vue";
+import SoundPlayer from "./components/SoundPlayer.vue";
 </script>
 
 <style scoped></style>
