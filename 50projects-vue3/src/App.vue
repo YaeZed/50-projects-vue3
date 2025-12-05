@@ -8,7 +8,8 @@
   <!-- <SplitLandingPage></SplitLandingPage> -->
   <!-- <LoginWavePage></LoginWavePage> -->
   <!-- <SoundPlayer></SoundPlayer> -->
-  <DadJokes></DadJokes>
+  <!-- <DadJokes></DadJokes> -->
+  <EventCodes></EventCodes>
 </template>
 
 <script setup lang="ts">
@@ -22,6 +23,7 @@ import SplitLandingPage from "./components/SplitLandingPage.vue";
 import LoginWavePage from "./components/LoginWavePage.vue";
 import SoundPlayer from "./components/SoundPlayer.vue";
 import DadJokes from "./components/DadJokes.vue";
+import EventCodes from "./components/EventCodes.vue";
 </script>
 
 <style scoped></style>
