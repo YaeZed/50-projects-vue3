@@ -9,7 +9,8 @@
   <!-- <LoginWavePage></LoginWavePage> -->
   <!-- <SoundPlayer></SoundPlayer> -->
   <!-- <DadJokes></DadJokes> -->
-  <EventCodes></EventCodes>
+  <!-- <EventCodes></EventCodes> -->
+  <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
 </template>
 
 <script setup lang="ts">
@@ -24,6 +25,7 @@ import LoginWavePage from "./components/LoginWavePage.vue";
 import SoundPlayer from "./components/SoundPlayer.vue";
 import DadJokes from "./components/DadJokes.vue";
 import EventCodes from "./components/EventCodes.vue";
+import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.vue";
 </script>
 
 <style scoped></style>
