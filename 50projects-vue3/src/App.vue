@@ -10,7 +10,8 @@
   <!-- <SoundPlayer></SoundPlayer> -->
   <!-- <DadJokes></DadJokes> -->
   <!-- <EventCodes></EventCodes> -->
-  <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
+  <!-- <FrequentlyAskedQuestions></FrequentlyAskedQuestions> -->
+  <RandomChoices></RandomChoices>
 </template>
 
 <script setup lang="ts">
@@ -26,6 +27,7 @@ import SoundPlayer from "./components/SoundPlayer.vue";
 import DadJokes from "./components/DadJokes.vue";
 import EventCodes from "./components/EventCodes.vue";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.vue";
+import RandomChoices from "./components/RandomChoices.vue";
 </script>
 
 <style scoped></style>
