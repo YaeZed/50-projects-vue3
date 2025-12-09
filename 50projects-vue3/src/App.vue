@@ -11,7 +11,8 @@
   <!-- <DadJokes></DadJokes> -->
   <!-- <EventCodes></EventCodes> -->
   <!-- <FrequentlyAskedQuestions></FrequentlyAskedQuestions> -->
-  <RandomChoices></RandomChoices>
+  <!-- <RandomChoices></RandomChoices> -->
+  <AnimatedNavigation></AnimatedNavigation>
 </template>
 
 <script setup lang="ts">
@@ -28,6 +29,7 @@ import DadJokes from "./components/DadJokes.vue";
 import EventCodes from "./components/EventCodes.vue";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.vue";
 import RandomChoices from "./components/RandomChoices.vue";
+import AnimatedNavigation from "./components/AnimatedNavigation.vue";
 </script>
 
 <style scoped></style>
