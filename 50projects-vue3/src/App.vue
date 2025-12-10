@@ -12,7 +12,8 @@
   <!-- <EventCodes></EventCodes> -->
   <!-- <FrequentlyAskedQuestions></FrequentlyAskedQuestions> -->
   <!-- <RandomChoices></RandomChoices> -->
-  <AnimatedNavigation></AnimatedNavigation>
+  <!-- <AnimatedNavigation></AnimatedNavigation> -->
+  <Followers></Followers>
 </template>
 
 <script setup lang="ts">
@@ -30,6 +31,7 @@ import EventCodes from "./components/EventCodes.vue";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.vue";
 import RandomChoices from "./components/RandomChoices.vue";
 import AnimatedNavigation from "./components/AnimatedNavigation.vue";
+import Followers from "./components/Followers.vue";
 </script>
 
 <style scoped></style>

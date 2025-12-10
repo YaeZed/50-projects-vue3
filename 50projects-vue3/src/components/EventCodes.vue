@@ -8,6 +8,7 @@
       <div v-else class="codes">
         <div class="code-card">
           {{ code.eventKey }}
+
           <small>event.key</small>
         </div>
         <div class="code-card">

@@ -36,9 +36,6 @@ const isOpen = ref(true);
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Muli");
 
-/* 将组件样式与页面布局样式分离 
-  demo-wrapper 模拟页面背景，实际组件中不应该包含这些
-*/
 .demo-wrapper {
   display: flex;
   justify-content: center;
