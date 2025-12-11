@@ -13,7 +13,8 @@
   <!-- <FrequentlyAskedQuestions></FrequentlyAskedQuestions> -->
   <!-- <RandomChoices></RandomChoices> -->
   <!-- <AnimatedNavigation></AnimatedNavigation> -->
-  <Followers></Followers>
+  <!-- <Followers></Followers> -->
+  <DrinkingWater></DrinkingWater>
 </template>
 
 <script setup lang="ts">
@@ -32,6 +33,7 @@ import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions.vue"
 import RandomChoices from "./components/RandomChoices.vue";
 import AnimatedNavigation from "./components/AnimatedNavigation.vue";
 import Followers from "./components/Followers.vue";
+import DrinkingWater from "./components/DrinkingWater.vue";
 </script>
 
 <style scoped></style>
