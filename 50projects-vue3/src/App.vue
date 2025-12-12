@@ -14,7 +14,8 @@
   <!-- <RandomChoices></RandomChoices> -->
   <!-- <AnimatedNavigation></AnimatedNavigation> -->
   <!-- <Followers></Followers> -->
-  <DrinkingWater></DrinkingWater>
+  <!-- <DrinkingWater></DrinkingWater> -->
+  <MovieApp> </MovieApp>
 </template>
 
 <script setup lang="ts">
@@ -34,6 +35,7 @@ import RandomChoices from "./components/RandomChoices.vue";
 import AnimatedNavigation from "./components/AnimatedNavigation.vue";
 import Followers from "./components/Followers.vue";
 import DrinkingWater from "./components/DrinkingWater.vue";
+import MovieApp from "./components/MovieApp.vue";
 </script>
 
 <style scoped></style>
