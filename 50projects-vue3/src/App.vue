@@ -15,7 +15,8 @@
   <!-- <AnimatedNavigation></AnimatedNavigation> -->
   <!-- <Followers></Followers> -->
   <!-- <DrinkingWater></DrinkingWater> -->
-  <MovieApp> </MovieApp>
+  <!-- <MovieApp> </MovieApp> -->
+  <BackgroundSlider></BackgroundSlider>
 </template>
 
 <script setup lang="ts">
@@ -36,6 +37,7 @@ import AnimatedNavigation from "./components/AnimatedNavigation.vue";
 import Followers from "./components/Followers.vue";
 import DrinkingWater from "./components/DrinkingWater.vue";
 import MovieApp from "./components/MovieApp.vue";
+import BackgroundSlider from "./components/BackgroundSlider.vue";
 </script>
 
 <style scoped></style>
