@@ -16,7 +16,8 @@
   <!-- <Followers></Followers> -->
   <!-- <DrinkingWater></DrinkingWater> -->
   <!-- <MovieApp> </MovieApp> -->
-  <BackgroundSlider></BackgroundSlider>
+  <!-- <BackgroundSlider></BackgroundSlider> -->
+  <ThemeClock></ThemeClock>
 </template>
 
 <script setup lang="ts">
@@ -38,6 +39,7 @@ import Followers from "./components/Followers.vue";
 import DrinkingWater from "./components/DrinkingWater.vue";
 import MovieApp from "./components/MovieApp.vue";
 import BackgroundSlider from "./components/BackgroundSlider.vue";
+import ThemeClock from "./components/ThemeClock.vue";
 </script>
 
 <style scoped></style>
