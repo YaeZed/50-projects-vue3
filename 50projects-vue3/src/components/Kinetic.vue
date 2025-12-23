@@ -1,0 +1,67 @@
+<template>
+  <div class="kinetic-body">
+    <div class="kinetic"></div>
+  </div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped>
+.kinetic-body {
+  background-color: #2c3e50;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  overflow: hidden;
+}
+
+.kinetic {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+
+.kinetic::after,
+.kinetic::before {
+  content: "";
+  position: absolute;
+  border: 50px solid transparent;
+  border-bottom-color: #fff;
+  /* 延迟0.5s后 */
+  animation: rotateA 2s linear infinite 0.5s;
+}
+.kinetic::before {
+  transform: rotate(90deg);
+  animation: rotateB 2s linear infinite;
+}
+
+/* 0-25%：保持原状；25-50%：顺时针旋转180度；50-75%：保持原状；75-100%：顺时针旋转180度 */
+@keyframes rotateA {
+  0%,
+  25% {
+    transform: rotate(0deg);
+  }
+  50%,
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateB {
+  0%,
+  25% {
+    transform: rotate(90deg);
+  }
+  50%,
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
+}
+</style>

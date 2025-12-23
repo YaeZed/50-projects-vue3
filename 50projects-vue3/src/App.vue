@@ -17,7 +17,11 @@
   <!-- <DrinkingWater></DrinkingWater> -->
   <!-- <MovieApp> </MovieApp> -->
   <!-- <BackgroundSlider></BackgroundSlider> -->
-  <ThemeClock></ThemeClock>
+  <!-- <ThemeClock></ThemeClock> -->
+  <!-- <RippleButton></RippleButton> -->
+  <!-- <DragAndDrop></DragAndDrop> -->
+  <!-- <Kinetic></Kinetic> -->
+  <Ring></Ring>
 </template>
 
 <script setup lang="ts">
@@ -40,6 +44,11 @@ import DrinkingWater from "./components/DrinkingWater.vue";
 import MovieApp from "./components/MovieApp.vue";
 import BackgroundSlider from "./components/BackgroundSlider.vue";
 import ThemeClock from "./components/ThemeClock.vue";
+import RippleButton from "./components/RippleButton.vue";
+import DragAndDrop from "./components/DragAndDrop.vue";
+import Kinetic from "./components/Kinetic.vue";
+import test from "./components/Ring.vue";
+import Ring from "./components/Ring.vue";
 </script>
 
 <style scoped></style>
