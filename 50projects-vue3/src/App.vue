@@ -21,7 +21,8 @@
   <!-- <RippleButton></RippleButton> -->
   <!-- <DragAndDrop></DragAndDrop> -->
   <!-- <Kinetic></Kinetic> -->
-  <Ring></Ring>
+  <!-- <Ring></Ring> -->
+   <Skeleton></Skeleton>
 </template>
 
 <script setup lang="ts">
@@ -49,6 +50,7 @@ import DragAndDrop from "./components/DragAndDrop.vue";
 import Kinetic from "./components/Kinetic.vue";
 import test from "./components/Ring.vue";
 import Ring from "./components/Ring.vue";
+import Skeleton from "./components/Skeleton.vue";
 </script>
 
 <style scoped></style>
