@@ -22,7 +22,8 @@
   <!-- <DragAndDrop></DragAndDrop> -->
   <!-- <Kinetic></Kinetic> -->
   <!-- <Ring></Ring> -->
-   <Skeleton></Skeleton>
+   <!-- <Skeleton></Skeleton> -->
+    <WebsiteHome></WebsiteHome>
 </template>
 
 <script setup lang="ts">
@@ -51,6 +52,7 @@ import Kinetic from "./components/Kinetic.vue";
 import test from "./components/Ring.vue";
 import Ring from "./components/Ring.vue";
 import Skeleton from "./components/Skeleton.vue";
+import WebsiteHome from "./components/WebsiteHome.vue";
 </script>
 
 <style scoped></style>
