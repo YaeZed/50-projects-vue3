@@ -22,8 +22,9 @@
   <!-- <DragAndDrop></DragAndDrop> -->
   <!-- <Kinetic></Kinetic> -->
   <!-- <Ring></Ring> -->
-   <!-- <Skeleton></Skeleton> -->
-    <WebsiteHome></WebsiteHome>
+  <!-- <Skeleton></Skeleton> -->
+  <!-- <WebsiteHome></WebsiteHome> -->
+  <VerticalSlider></VerticalSlider>
 </template>
 
 <script setup lang="ts">
@@ -52,6 +53,7 @@ import Kinetic from "./components/Kinetic.vue";
 import Ring from "./components/Ring.vue";
 import Skeleton from "./components/Skeleton.vue";
 import WebsiteHome from "./components/WebsiteHome.vue";
+import VerticalSlider from "./components/VerticalSlider.vue";
 </script>
 
 <style scoped></style>
