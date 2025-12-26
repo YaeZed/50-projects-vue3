@@ -24,7 +24,8 @@
   <!-- <Ring></Ring> -->
   <!-- <Skeleton></Skeleton> -->
   <!-- <WebsiteHome></WebsiteHome> -->
-  <VerticalSlider></VerticalSlider>
+  <!-- <VerticalSlider></VerticalSlider> -->
+  <ToastNotification></ToastNotification>
 </template>
 
 <script setup lang="ts">
@@ -54,6 +55,7 @@ import Ring from "./components/Ring.vue";
 import Skeleton from "./components/Skeleton.vue";
 import WebsiteHome from "./components/WebsiteHome.vue";
 import VerticalSlider from "./components/VerticalSlider.vue";
+import ToastNotification from "./components/ToastNotification.vue";
 </script>
 
 <style scoped></style>
