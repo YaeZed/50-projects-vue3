@@ -25,6 +25,7 @@
   <!-- <Skeleton></Skeleton> -->
   <!-- <WebsiteHome></WebsiteHome> -->
   <!-- <VerticalSlider></VerticalSlider> -->
+  <!-- <ToastNotification></ToastNotification> -->
   <GithubSearch></GithubSearch>
 </template>
 
@@ -55,6 +56,7 @@ import Ring from "./components/Ring.vue";
 import Skeleton from "./components/Skeleton.vue";
 import WebsiteHome from "./components/WebsiteHome.vue";
 import VerticalSlider from "./components/VerticalSlider.vue";
+import ToastNotification from "./components/ToastNotification.vue";
 import GithubSearch from "./components/GithubSearch.vue";
 </script>
 
