@@ -27,7 +27,8 @@
   <!-- <VerticalSlider></VerticalSlider> -->
   <!-- <ToastNotification></ToastNotification> -->
   <!-- <GithubSearch></GithubSearch> -->
-  <DoubleClickHeart></DoubleClickHeart>
+  <!-- <DoubleClickHeart></DoubleClickHeart> -->
+  <AutoTextEffect></AutoTextEffect>
 </template>
 
 <script setup lang="ts">
@@ -60,6 +61,7 @@ import VerticalSlider from "./components/VerticalSlider.vue";
 import ToastNotification from "./components/ToastNotification.vue";
 import GithubSearch from "./components/GithubSearch.vue";
 import DoubleClickHeart from "./components/DoubleClickHeart.vue";
+import AutoTextEffect from "./components/AutoTextEffect.vue";
 </script>
 
 <style scoped></style>
