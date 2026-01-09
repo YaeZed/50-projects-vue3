@@ -28,7 +28,8 @@
   <!-- <ToastNotification></ToastNotification> -->
   <!-- <GithubSearch></GithubSearch> -->
   <!-- <DoubleClickHeart></DoubleClickHeart> -->
-  <AutoTextEffect></AutoTextEffect>
+  <!-- <AutoTextEffect></AutoTextEffect> -->
+  <PasswordGenerator></PasswordGenerator>
 </template>
 
 <script setup lang="ts">
@@ -62,6 +63,7 @@ import ToastNotification from "./components/ToastNotification.vue";
 import GithubSearch from "./components/GithubSearch.vue";
 import DoubleClickHeart from "./components/DoubleClickHeart.vue";
 import AutoTextEffect from "./components/AutoTextEffect.vue";
+import PasswordGenerator from "./components/PasswordGenerator.vue";
 </script>
 
 <style scoped></style>
