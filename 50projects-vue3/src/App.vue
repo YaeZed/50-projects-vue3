@@ -29,7 +29,8 @@
   <!-- <GithubSearch></GithubSearch> -->
   <!-- <DoubleClickHeart></DoubleClickHeart> -->
   <!-- <AutoTextEffect></AutoTextEffect> -->
-  <PasswordGenerator></PasswordGenerator>
+  <!-- <PasswordGenerator></PasswordGenerator> -->
+  <BallCheckbox></BallCheckbox>
 </template>
 
 <script setup lang="ts">
@@ -64,6 +65,7 @@ import GithubSearch from "./components/GithubSearch.vue";
 import DoubleClickHeart from "./components/DoubleClickHeart.vue";
 import AutoTextEffect from "./components/AutoTextEffect.vue";
 import PasswordGenerator from "./components/PasswordGenerator.vue";
+import BallCheckbox from "./components/BallCheckbox.vue";
 </script>
 
 <style scoped></style>
