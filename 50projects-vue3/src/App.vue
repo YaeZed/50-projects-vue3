@@ -30,7 +30,8 @@
   <!-- <DoubleClickHeart></DoubleClickHeart> -->
   <!-- <AutoTextEffect></AutoTextEffect> -->
   <!-- <PasswordGenerator></PasswordGenerator> -->
-  <BallCheckbox></BallCheckbox>
+  <!-- <BallCheckbox></BallCheckbox> -->
+  <Note></Note>
 </template>
 
 <script setup lang="ts">
@@ -66,6 +67,9 @@ import DoubleClickHeart from "./components/DoubleClickHeart.vue";
 import AutoTextEffect from "./components/AutoTextEffect.vue";
 import PasswordGenerator from "./components/PasswordGenerator.vue";
 import BallCheckbox from "./components/BallCheckbox.vue";
+import Note from "./components/Note.vue";
 </script>
 
-<style scoped></style>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+</style>
